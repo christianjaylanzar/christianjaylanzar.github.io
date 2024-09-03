@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <a class="navbar-brand" href="#">My Portfolio</a> | &nbsp; Christian Jay H. Lanzar
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section text-white d-flex align-items-center">
+        <div class="shapes-container">
+            <div class="shape triangle-bottom-right"></div>
+            <div class="shape circle-top-left"></div>
+            <div class="shape triangle-top-left"></div>
+            <div class="shape square-top-right"></div>
+        </div>
+        <div class="container text-center">
+            <h1 class="display-4" >Hello, I'm a <br><span class="text-gold ">Graphic Artist & <br> Front-End Programmer</span></h1>
+            <p class="lead">I create elegant designs and efficient design code.</p>
+            <a href="#portfolio" class="btn btn-gold btn-lg mt-4">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="aboutme" class="about-section py-5 bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 about-div-text">
+                    <h2 class="text-gold1">About Me</h2>
+                    <p class="text-white-50 about-text">I am passionate about blending art and technology to create beautiful and functional digital experiences. With skills in graphic design and programming, I bring creativity and logic together in every project I work on.</p>
+                </div>
+                <div class="col-md-6 profile-div">
+                    <img src="images/picture.jpg" class="img-fluid rounded profile-pic" alt="About Me" onclick="openModal('images/picture.jpg', 'Christian Jay H. Lanzar', 'I am a passionate IT instructor and graphic designer who thrives on blending creativity with technical know-how. From teaching the intricacies of web design and programming to crafting eye-catching visuals with Adobe Photoshop and Illustrator, my journey has been fueled by a love for both art and technology. My experience ranges from designing dynamic web pages with HTML5, CSS, and JavaScript, to creating engaging graphics and layouts for various projects. Having worked in roles that span from graphic editing for college publications to IT Instructor, I bring a unique mix of skills and creativity to every project I tackle. Whether it is developing innovative solutions or bringing imaginative designs to life, I approach each challenge with enthusiasm and a touch of artistic flair.')">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills and Expertise Section -->
+    <section class="skills-section py-5">
+        <div class="container">
+            <h2 class="text-center text-gold1">Capabilities & Mastery</h2>
+            <p class="text-center text-white-50">This section presents my technical proficiencies and creative capabilities, highlighting the skills essential for delivering high-quality results in design, programming, and related fields. Each skill underscores my commitment to excellence and ongoing development in the dynamic technology landscape.</p>
+          
+            <!-- SKILLS AND EXPERTISE -->
+
+
+            <div class="skills-container" >
+                <!-- Repeat this block for each skill -->
+                <div class="skill">
+                    <div class="skill-name">Adobe <br>Photoshop</div>
+                    <div class="progress-wheel" data-progress="95">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Adobe <br>Illustrator</div>
+                    <div class="progress-wheel" data-progress="85">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Microsoft<br> PowerPoint</div>
+                    <div class="progress-wheel" data-progress="95">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Microsoft<br> Excel</div>
+                    <div class="progress-wheel" data-progress="90">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Microsoft<br> Word</div>
+                    <div class="progress-wheel" data-progress="95">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Typing <br>Skills</div>
+                    <div class="progress-wheel" data-progress="90">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">C++ <br>Programming</div>
+                    <div class="progress-wheel" data-progress="85">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Web Designing<br>(HTML, CSS, JS)</div>
+                    <div class="progress-wheel" data-progress="90">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">PHP <br>Programming</div>
+                    <div class="progress-wheel" data-progress="85">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Java <br>Programming</div>
+                    <div class="progress-wheel" data-progress="85">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">SAP <br>ABAP</div>
+                    <div class="progress-wheel" data-progress="85">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Canva <br> Editing</div>
+                    <div class="progress-wheel" data-progress="95">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Video Editing<br>(Capcut, Filmora)</div>
+                    <div class="progress-wheel" data-progress="90">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">PC <br>Troubleshooting</div>
+                    <div class="progress-wheel" data-progress="90">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Traditional/Digital <br> Drawing</div>
+                    <div class="progress-wheel" data-progress="95">
+                        <svg width="100" height="100" viewBox="0 0 100 100">
+                            <circle class="background" cx="50" cy="50" r="45" />
+                            <circle class="progress" cx="50" cy="50" r="45" />
+                            <text class="percentage" x="50%" y="50%" dy=".3em" text-anchor="middle">0%</text>
+                        </svg>
+                    </div>
+                </div>
+        
+            </div>         
+            
+
+           
+
+
+
+            <!-- END OF SKILLS AND EXPERTISE -->
+        
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section py-5">
+        <div class="container">
+            <h2 class="text-center text-gold1">My Portfolio</h2>
+            <p class="text-center text-white-50">A selection of my recent work in design and development.</p>
+          
+
+            <!-- MODAL GALLERY -->
+            
+
+            <div class="gallery-container">
+                <button class="scroll-button left-button" id="prevBtn" title="Back">&#10094;</button>
+               
+                <div class="scroll-gallery" id="scrollGallery">
+                     <!--IMAGES POP UP HERE-->
+                </div>
+
+                <button class="scroll-button right-button" id="nextBtn"  title="Next">&#10095;</button>
+            </div>
+        
+            <!-- Modal Structure -->
+            <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImg">
+                <div id="caption"></div>
+            </div>
+
+
+
+        
+        
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+<section id="contact" class="contact-section py-5 ">
+    <div class="container">
+        <h2 class="text-center text-gold1">Get In Touch</h2>
+        <p class="text-center text-white-50">I would love to hear from you. Please fill out the form below to get in touch with me.</p>
+        <form id="contact-form" method="post" action="https://formspree.io/f/xwpewvwo">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" title="Please enter your full name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" title="Please enter your email address" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message" title="Please enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold btn-lg btn-block">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer class="footer bg-black text-center py-3">
+        <p class="text-white-50 mb-0">&copy; 2024 Christian Jay Lanzar's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- Use full version of jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/galleryData.js"></script>
+
+</body>
+</html>
