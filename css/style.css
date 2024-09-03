@@ -349,8 +349,8 @@ body {
 |                   ABOUT                                       |
 ----------------------------------------------------------------*/
 .profile-pic {
-width: 50%;
- 
+width: 30%;
+margin-left: 15%;
 }
 .profile-div {
     left: 245px !important; 
@@ -482,10 +482,12 @@ width: 50%;
         position: relative;
     }
     .profile-pic {
-        left: 40% !important;
+        margin: 0 auto;
         position: static !important;
     }
-
+    .navname {
+        display: none;
+    }
 
     
    
