@@ -51,12 +51,12 @@ const galleryItems = [
         description: "This was created in 2021 for a client's vape shop business."
     },
     {
-        src: "images/projects/edit5.png",
+        src: "images/projects/edit1.PNG",
         title: "The V-ape Shop",
         description: "This was created in 2021 for a client's vape shop business."
     },
     {
-        src: "images/projects/final.png",
+        src: "images/projects/edit5.PNG",
         title: "The V-ape Shop",
         description: "This was created in 2021 for a client's vape shop business."
     },
@@ -66,12 +66,12 @@ const galleryItems = [
         description: "This was created in 2021 for a client's homemade honey business."
     },
     {
-        src: "images/projects/honey1.png",
+        src: "images/projects/HONEY1.png",
         title: "EM19's Honey",
         description: "This was created in 2021 for a client's homemade honey business."
     },
     {
-        src: "images/projects/SweetsNTreats logo.png",
+        src: "images/projects/SweetsNTreats logo.PNG",
         title: "Raznal Sweets & Treats",
         description: "This was created in 2020 for a our homemade bread and pastry business."
     },
@@ -131,7 +131,7 @@ const galleryItems = [
         description: "This customized logo were created during my internship at HighlySucceed Inc. last 2022."
     },
     {
-        src: "images/projects/FINAL PURE WATER 2 - COPY.png",
+        src: "images/projects/FINAL PURE WATER 2 - Copy.png",
         title: "PureWater",
         description: "This customized logo were created during my internship at HighlySucceed Inc. last 2022."
     },
@@ -146,17 +146,17 @@ const galleryItems = [
         description: "This customized logo were created during my internship at HighlySucceed Inc. last 2022."
     },
     {
-        src: "images/projects/1.png",
+        src: "images/projects/1.PNG",
         title: "Tshirt Design",
         description: "This was created in 2021 for a client's family tshirt design."
     },
     {
-        src: "images/projects/ewr.png",
+        src: "images/projects/EWR.PNG",
         title: "Tshirt Design",
         description: "This was created in 2022 for a client's family tshirt design."
     },
     {
-        src: "images/projects/family.png",
+        src: "images/projects/FAMILY.PNG",
         title: "Tshirt Design",
         description: "This was created in 2020 for a client's family tshirt design."
     },
@@ -176,12 +176,12 @@ const galleryItems = [
         description: "This was created in 2021 for a client's tshirt design."
     },
     {
-        src: "images/projects/LOGO1.png",
+        src: "images/projects/LOGO1.PNG",
         title: "College Organization Tshirt Design",
         description: "This was created in 2021 for college organization tshirt design."
     },
     {
-        src: "images/projects/LOGO3.png",
+        src: "images/projects/LOGO3.PNG",
         title: "College Organization Tshirt Design",
         description: "This was created in 2021 for college organization tshirt design."
     },
@@ -231,12 +231,12 @@ const galleryItems = [
         description: "This customized tarpaulin layout was created in 2019 for a client's small francise business."
     },
     {
-        src: "images/projects/shawarna copy.png",
+        src: "images/projects/shawarna copy.PNG",
         title: "Tarpaulin Design",
         description: "This customized tarpaulin layout was created in 2019 for a client's small francise business."
     },
     {
-        src: "images/projects/sisig 2 copy copy.png",
+        src: "images/projects/sisig 2 copy copy.PNG",
         title: "Tarpaulin Design",
         description: "This customized tarpaulin layout was created in 2019 for a client's small francise business."
     },
